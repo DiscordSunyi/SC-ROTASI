@@ -1,22 +1,22 @@
 bot_raw = {}
 ---======================---
-bot_raw["NAMEBOT1"] = {
+bot_raw["StoneTrasher"] = {
 webhooks = {
-  ["LINK"]  = '',
+  ["LINK"]  = 'https://discordapp.com/api/webhooks/1008048061290913804/1IKsw98IdSQ_YA4eUnecGMFBcXvG_l-DhniC2oNU6arqYbsc9DfMC-UUnxCVlTz1-LpD',
   ["EDIT"]  = false
 },
 -----------------------
 bot_config = {
-  ["World"] = {"FARM1"},
-  ["Door"] = 'FARM_ID',
+  ["World"] = {"FYSUV", "FYSUC", "FYSUL", "FYUPM", "FYUPV", "QOHQB"},
+  ["Door"] = 'knsond100ks',
   ["Loop"] = true,
   ["Save_Mode"] = 1,
   ["Save"] = {
               {
-                ["World"] = "World_Save",
-                ["Door"] = "Door_ID",       --Mode 1
-                ["Path_Seed"] = 20,
-                ["Path_Pack"] = 12
+                ["World"] = "78080",
+                ["Door"] = "knsond1",       --Mode 1
+                ["Path_Seed"] = 888,
+                ["Path_Pack"] = 20
               },
               {
                 ["World_Pack"] = "World_Save_Pack",
@@ -31,8 +31,8 @@ bot_config = {
 },
 ------------------------
 bot_mode = {
-  ["Block"] = 5666,
-  ["Type"] = 'fg',
+  ["Block"] = 3004,
+  ["Type"] = 'bg',
   ["Ignore Gems"] = false, --Ignore Gems When Harvesting
   ["Coordinate_Break"] = {2,1}
 },
@@ -44,19 +44,19 @@ bot_environment = {
               },
   ["Buy"] = {
             ["Mode"] = true,
-            ["Name"] = 'world_lock',
-            ["Price"] = 2000,
-            ["Item_List"] = {242},
-            ["Limit"] = 3,
+            ["Name"] = 'farm_pack',
+            ["Price"] = 15000,
+            ["Item_List"] = {866, 872, 880, 884, 888, 886, 890, 892, 894, 896, 898},
+            ["Limit"] = 1,
             ["When"] = {
                         ["Harvest"] = true,
                         ["Plant"]   = true,
                         ["Break"]   = true
                        }
             },
-  ["Jammer"] = true,
+  ["Jammer"] = false,
   ["Ban"] = {
-            ["Mode"] = true,
+            ["Mode"] = false,
             ["Ignore"] = {"Ignored_Name"}
             },
   ["Leave"] = {
@@ -67,23 +67,25 @@ bot_environment = {
 }
 }
 
-bot_raw["NAMEBOT2"] = {
-  webhooks = {
-  ["LINK"]  = '',
+bot_raw = {}
+---======================---
+bot_raw["Gontong"] = {
+webhooks = {
+  ["LINK"]  = 'https://discordapp.com/api/webhooks/1015895837278220369/0fOkjEb5wURw3s-MlejNPOR4P8FVVAzMF6o7QgHW3n_IkwY20Cg2bc4OhLfeODBDj2Xn',
   ["EDIT"]  = false
 },
 -----------------------
 bot_config = {
-  ["World"] = {"FARM1"},
-  ["Door"] = 'FARM_ID',
+  ["World"] = {"ZRIKX", "ZDYNM", "LMMWO", "UJJNL", "AJDBP", "CBSPD"},
+  ["Door"] = 'knsond100ks',
   ["Loop"] = true,
   ["Save_Mode"] = 1,
   ["Save"] = {
               {
-                ["World"] = "World_Save",
-                ["Door"] = "Door_ID",       --Mode 1
-                ["Path_Seed"] = 20,
-                ["Path_Pack"] = 12
+                ["World"] = "78080",
+                ["Door"] = "knsond1",       --Mode 1
+                ["Path_Seed"] = 888,
+                ["Path_Pack"] = 20
               },
               {
                 ["World_Pack"] = "World_Save_Pack",
@@ -98,8 +100,8 @@ bot_config = {
 },
 ------------------------
 bot_mode = {
-  ["Block"] = 5666,
-  ["Type"] = 'fg',
+  ["Block"] = 3004,
+  ["Type"] = 'bg',
   ["Ignore Gems"] = false, --Ignore Gems When Harvesting
   ["Coordinate_Break"] = {2,1}
 },
@@ -111,19 +113,19 @@ bot_environment = {
               },
   ["Buy"] = {
             ["Mode"] = true,
-            ["Name"] = 'world_lock',
-            ["Price"] = 2000,
-            ["Item_List"] = {242},
-            ["Limit"] = 3,
+            ["Name"] = 'farm_pack',
+            ["Price"] = 15000,
+            ["Item_List"] = {866, 872, 880, 884, 888, 886, 890, 892, 894, 896, 898},
+            ["Limit"] = 1,
             ["When"] = {
                         ["Harvest"] = true,
                         ["Plant"]   = true,
                         ["Break"]   = true
                        }
             },
-  ["Jammer"] = true,
+  ["Jammer"] = false,
   ["Ban"] = {
-            ["Mode"] = true,
+            ["Mode"] = false,
             ["Ignore"] = {"Ignored_Name"}
             },
   ["Leave"] = {
