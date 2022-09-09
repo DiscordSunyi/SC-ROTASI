@@ -1,13 +1,13 @@
 bot_raw = {}
 ---======================---
-bot_raw["StoneTrasher"] = {
+bot_raw["Gontong"] = {
 webhooks = {
-  ["LINK"]  = 'https://discordapp.com/api/webhooks/1008048061290913804/1IKsw98IdSQ_YA4eUnecGMFBcXvG_l-DhniC2oNU6arqYbsc9DfMC-UUnxCVlTz1-LpD',
+  ["LINK"]  = 'https://discordapp.com/api/webhooks/1015895837278220369/0fOkjEb5wURw3s-MlejNPOR4P8FVVAzMF6o7QgHW3n_IkwY20Cg2bc4OhLfeODBDj2Xn',
   ["EDIT"]  = false
 },
 -----------------------
 bot_config = {
-  ["World"] = {"FYSUV", "FYSUC", "FYSUL", "FYUPM", "FYUPV", "QOHQB"},
+  ["World"] = {"ZRIKX", "ZDYNM", "LMMWO", "UJJNL", "AJDBP", "CBSPD"},
   ["Door"] = 'knsond100ks',
   ["Loop"] = true,
   ["Save_Mode"] = 1,
@@ -15,8 +15,8 @@ bot_config = {
               {
                 ["World"] = "78080",
                 ["Door"] = "knsond1",       --Mode 1
-                ["Path_Seed"] = 888,
-                ["Path_Pack"] = 20
+                ["Path_Seed"] = 20,
+                ["Path_Pack"] = 888
               },
               {
                 ["World_Pack"] = "World_Save_Pack",
@@ -67,16 +67,14 @@ bot_environment = {
 }
 }
 
-bot_raw = {}
----======================---
-bot_raw["Gontong"] = {
-webhooks = {
-  ["LINK"]  = 'https://discordapp.com/api/webhooks/1015895837278220369/0fOkjEb5wURw3s-MlejNPOR4P8FVVAzMF6o7QgHW3n_IkwY20Cg2bc4OhLfeODBDj2Xn',
+bot_raw["StoneTrasher"] = {
+  webhooks = {
+  ["LINK"]  = 'https://discordapp.com/api/webhooks/1008048061290913804/1IKsw98IdSQ_YA4eUnecGMFBcXvG_l-DhniC2oNU6arqYbsc9DfMC-UUnxCVlTz1-LpD',
   ["EDIT"]  = false
 },
 -----------------------
 bot_config = {
-  ["World"] = {"ZRIKX", "ZDYNM", "LMMWO", "UJJNL", "AJDBP", "CBSPD"},
+  ["World"] = {"FYSUV", "FYSUC", "FYSUL", "FYUPM", "FYUPV", "QOHQB"},
   ["Door"] = 'knsond100ks',
   ["Loop"] = true,
   ["Save_Mode"] = 1,
@@ -84,8 +82,8 @@ bot_config = {
               {
                 ["World"] = "78080",
                 ["Door"] = "knsond1",       --Mode 1
-                ["Path_Seed"] = 888,
-                ["Path_Pack"] = 20
+                ["Path_Seed"] = 20,
+                ["Path_Pack"] = 888
               },
               {
                 ["World_Pack"] = "World_Save_Pack",
