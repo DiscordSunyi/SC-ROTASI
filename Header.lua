@@ -74,7 +74,7 @@ bot_raw["StoneTrasher"] = {
 },
 -----------------------
 bot_config = {
-  ["World"] = {"FYSUV", "FYSUC", "FYSUL", "FYUPM", "FYUPV", "QOHQB"},
+  ["World"] = {"FYSUL", "FYUPM", "FYUPV", "QOHQB", "FYSUV", "FYSUC"},
   ["Door"] = 'knsond100ks',
   ["Loop"] = true,
   ["Save_Mode"] = 1,
