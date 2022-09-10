@@ -7,7 +7,7 @@ webhooks = {
 },
 -----------------------
 bot_config = {
-  ["World"] = {"ZRIKX", "ZDYNM", "LMMWO", "UJJNL", "AJDBP", "CBSPD"},
+  ["World"] = {"LMMWO", "UJJNL", "AJDBP", "CBSPD", "ZRIKX", "ZDYNM"},
   ["Door"] = 'knsond100ks',
   ["Loop"] = true,
   ["Save_Mode"] = 1,
