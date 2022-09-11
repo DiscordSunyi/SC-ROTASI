@@ -143,9 +143,9 @@ webhooks = {
 },
 -----------------------
 bot_config = {
-  ["World"] = {"LMMWO", "UJJNL", "AJDBP", "CBSPD", "ZRIKX", "ZDYNM"},
+  ["World"] = {"FHROI", "EHSKT", "LMKWK"},
   ["Door"] = 'knsond100ks',
-  ["Loop"] = true,
+  ["Loop"] = false,
   ["Save_Mode"] = 1,
   ["Save"] = {
               {
