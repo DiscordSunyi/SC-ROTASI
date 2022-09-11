@@ -150,7 +150,7 @@ bot_config = {
   ["Save"] = {
               {
                 ["World"] = "78080",
-                ["Door"] = "knsond1",       --Mode 1
+                ["Door"] = "knsond2",       --Mode 1
                 ["Path_Seed"] = 52,
                 ["Path_Pack"] = 200
               },
