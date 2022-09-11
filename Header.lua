@@ -133,3 +133,72 @@ bot_environment = {
               }
 }
 }
+
+bot_raw = {}
+---======================---
+bot_raw["PotatoBreaker"] = {
+webhooks = {
+  ["LINK"]  = 'https://discordapp.com/api/webhooks/1010779988645138563/OCzR_4vdVuMsfxDk8MBZXXq9fgQ7eAOuXG-Jjmk6cFh_ZSIXgz564cb5U5KRDb_h22bJ',
+  ["EDIT"]  = false
+},
+-----------------------
+bot_config = {
+  ["World"] = {"LMMWO", "UJJNL", "AJDBP", "CBSPD", "ZRIKX", "ZDYNM"},
+  ["Door"] = 'knsond100ks',
+  ["Loop"] = true,
+  ["Save_Mode"] = 1,
+  ["Save"] = {
+              {
+                ["World"] = "78080",
+                ["Door"] = "knsond1",       --Mode 1
+                ["Path_Seed"] = 52,
+                ["Path_Pack"] = 200
+              },
+              {
+                ["World_Pack"] = "World_Save_Pack",
+                ["Door_Pack"] = "Door_ID_Save_Pack",
+                ["Path_Pack"] = 12,
+                                                      --Mode 2
+                ["World_Seed"] = "World_Save_Seed",     
+                ["Door_Seed"] = "Door_ID_Save_Seed",
+                ["Path_Seed"] = 20
+              }
+             }
+},
+------------------------
+bot_mode = {
+  ["Block"] = 5666,
+  ["Type"] = 'fg',
+  ["Ignore Gems"] = false, --Ignore Gems When Harvesting
+  ["Coordinate_Break"] = {3,2}
+},
+------------------------
+bot_environment = {
+  ["Trash"] = {
+              ["Limit"] = 120,
+              ["List"] = {5040,5042,5044,5032,5034,5036,5038,5024,5026,5028,5030,7164,7162,1098,1058,1096,1094}
+              },
+  ["Buy"] = {
+            ["Mode"] = true,
+            ["Name"] = 'farm_pack',
+            ["Price"] = 15000,
+            ["Item_List"] = {866, 872, 880, 884, 888, 886, 890, 892, 894, 896, 898,1828,10228},
+            ["Limit"] = 1,
+            ["When"] = {
+                        ["Harvest"] = true,
+                        ["Plant"]   = true,
+                        ["Break"]   = true
+                       }
+            },
+  ["Jammer"] = false,
+  ["Ban"] = {
+            ["Mode"] = false,
+            ["Ignore"] = {"Ignored_Name"}
+            },
+  ["Leave"] = {
+            ["Mode"] = true,
+            ["Limit"] = 5,
+            ["Delay"] = 30 --Second
+              }
+}
+}
