@@ -134,8 +134,6 @@ bot_environment = {
 }
 }
 
-bot_raw = {}
----======================---
 bot_raw["PotatoBreaker"] = {
 webhooks = {
   ["LINK"]  = 'https://discordapp.com/api/webhooks/1010779988645138563/OCzR_4vdVuMsfxDk8MBZXXq9fgQ7eAOuXG-Jjmk6cFh_ZSIXgz564cb5U5KRDb_h22bJ',
